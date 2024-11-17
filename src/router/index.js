@@ -1,12 +1,12 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
-import AuthorsList from '../components/Authors.vue';
-import PublishersList from '../components/Publishers.vue';
-import BooksList from '../components/Book.vue';
+import AerolineasList from '../components/Aerolineas.vue';
+import AvionesList from '../components/Aviones.vue';
+import FabricantesList from '../components/Fabricantes.vue';
 
 const routes = [
-  { path: '/authors', component: AuthorsList },
-  { path: '/publishers', component: PublishersList },
-  { path: '/books', component: BooksList }
+  { path: '/aerolineas', component: AerolineasList },
+  { path: '/aviones', component: AvionesList },
+  { path: '/fabricantes', component: FabricantesList }
 ];
 
 const router = createRouter({
